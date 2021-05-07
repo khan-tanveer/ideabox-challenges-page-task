@@ -13,6 +13,7 @@
 }
 
 .header__menubar {
+  /* visibility: hidden; */
   display: none;
 }
 
@@ -53,11 +54,15 @@
 
 /* smal................... */
 
-.header__small {
+.header__smalls {
   display: none;
 }
 
 @media only screen and (max-width: 768px) {
+  .header__menubar {
+    visibility: visible;
+  }
+
   .header__smalls {
     display: flex;
     justify-content: space-around;
