@@ -1,0 +1,107 @@
+.header {
+  height: 15vh;
+  letter-spacing: 0.5px;
+  background-color: rgb(62, 62, 62);
+  color: white;
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menubar {
+  display: none;
+}
+
+.header__logo {
+  padding: 0.2rem;
+  height: 70px;
+  width: 100px;
+  margin-left: 1rem;
+}
+
+.header__menu ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__menu ul li {
+  text-decoration: none;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__menuLogo {
+  margin-right: 0.5rem;
+}
+
+.header__extra {
+  margin-right: 1rem;
+}
+
+.header__avatar {
+  margin-left: 2rem;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+/* smal................... */
+
+.header__small {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__smalls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #444;
+  }
+
+  .header__menubar {
+    height: 300px;
+    width: 300px;
+  }
+
+  .header__bars {
+    height: 22px;
+    width: 30px;
+    position: fixed;
+    left: 20px;
+  }
+
+  .header__bars > div {
+    height: 22px;
+    width: 30px;
+    position: fixed;
+    right: 20px;
+  }
+
+  .header {
+    height: 15vh;
+    letter-spacing: 0.5px;
+    background-color: #f8f8f8;
+  }
+
+  .header__menubar {
+    color: #444;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .header__menu,
+  .header__logo,
+  .header__menuLogo,
+  .header__extra {
+    display: none;
+  }
+}

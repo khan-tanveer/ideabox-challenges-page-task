@@ -1,0 +1,304 @@
+.cardidea {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardidea__container {
+  margin: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  height: auto;
+  max-width: 54.17276720351391vw;
+  border: 0.5px solid #bfbfbf;
+  border-radius: 10px;
+}
+
+.cardidea__idea {
+  margin-top: 1vh;
+  color: #444;
+}
+
+/* first line......................... */
+
+.cardidea__header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card__headerFirst p {
+  color: red;
+}
+
+.card__headerFirst h3 {
+  margin-right: 15px;
+}
+
+.cardidea__h3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardidea__headerLast {
+  visibility: visible;
+}
+
+.cardidea__headerSvgs {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+/* secound line........................ */
+
+.header__secoundLine {
+  color: rgb(198, 175, 167);
+  display: flex;
+  align-items: center;
+}
+
+.cardidea__avatar {
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+
+.header__secoundLine p {
+  font-size: 15px;
+  margin-top: 3px;
+  color: #444;
+  letter-spacing: 1px;
+}
+
+.card__dot {
+  height: 30px;
+  width: 20px;
+}
+
+.header__secoundLine ul {
+  margin-left: 1rem;
+  display: flex;
+}
+
+.header__secoundLine ul li {
+  color: rgb(198, 175, 167);
+  font-size: 15px;
+  margin-left: 1.5rem;
+}
+
+/*third line  cardidea para .................................. */
+.cardidea__para {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444;
+}
+
+/* fourth line tags..................................... */
+
+.cardidea__tags {
+  margin-top: 1rem;
+  font-size: 13px;
+  color: rgb(114, 183, 244);
+}
+
+.cardidea__tags p {
+  padding-bottom: 3rem;
+}
+
+/* cardideas image section................................... */
+
+.cardidea__imageSection {
+  height: 300px;
+  max-width: 90vw;
+}
+
+/* 5 line like comment section.......................... */
+
+.cardidea__likeComment {
+  border-top: 1px solid rgb(191, 191, 191);
+  margin-top: 1vh;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardidea__likeCommentImage {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+p {
+  margin-right: 2rem;
+}
+
+.cardidea__likeCommentSectionButton {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cardidea__extimg {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-size: 10px;
+  /* padding: 5px; */
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cardidea__calmag {
+  height: 20px;
+  width: 20px;
+}
+
+/* extra section.......................... */
+
+.cardidea__viewSvg {
+  overflow: hidden;
+  display: none;
+}
+
+/* media queries..............................................0 */
+
+@media only screen and (max-width: 768px) {
+  .cardidea__container {
+    margin-top: 10vh;
+    height: auto;
+    max-width: 90.17276720351391vw;
+  }
+
+  .cardidea__header {
+    margin-top: 2vh;
+  }
+
+  .cardidea__headerLast {
+    display: none;
+  }
+
+  .header__secoundLine ul li {
+    color: rgb(198, 175, 167);
+    padding: 0 3px;
+    font-size: 15px;
+    /* margin-left: 15px; */
+  }
+
+  .cardidea__para {
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 20px;
+    color: #444;
+  }
+
+  .cardidea__tags p {
+    padding-bottom: 5px;
+  }
+
+  .cardidea__likeCommButton {
+    display: none;
+  }
+
+  /* hidden sene.................. */
+  .cardidea__viewSvg {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 3vh;
+    justify-content: space-between;
+  }
+
+  .cardidea__svgAndPara {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .cardidea__svgAndPara p {
+    margin-right: 5px;
+  }
+
+  .cardidea__likeComment {
+    padding: 5px 20px;
+  }
+
+  .cardidea__calmag {
+    margin-bottom: 1vh;
+    height: 30px;
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .cardidea__container {
+    margin: 5px;
+    padding: 0.3rem;
+    margin-top: 3rem;
+    height: auto;
+    max-width: auto;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+  }
+
+  .cardidea__header {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+  }
+
+  .cardidea__header li {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+  /* secoundline...................... */
+
+  .header__secoundLine p {
+    margin-top: 3px;
+    font-size: 15px;
+  }
+
+  .header__secoundLine ul {
+    margin-left: 0.1rem;
+    display: flex;
+  }
+
+  .cardidea__secThirdChild {
+    display: none;
+  }
+
+  .header__secoundLine ul li {
+    color: rgb(198, 175, 167);
+    font-size: 18px;
+    margin-left: 0.7rem;
+  }
+
+  /* third line............. */
+
+  .cardidea__para {
+    margin-top: 1rem;
+    /* font-weight: 200; */
+    font-size: 18px;
+    color: #444;
+  }
+
+  .cardidea__likeCommentSectionButton {
+    margin: 8px 0;
+  }
+
+  /* like section */
+  .cardidea__likeCommentImage {
+    margin-right: 5px;
+  }
+  p {
+    margin-right: 2rem;
+  }
+}
