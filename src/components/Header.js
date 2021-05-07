@@ -22,9 +22,10 @@ const header = () => {
         </div>
 
         <div className="header__Title">
-          <div>
-            <h4>Home</h4>
+          <div className="header__titHome">
+            <h3>Home</h3>
           </div>
+
           <div className="header__menuIcons">
             <img className="header__menuIconSingle" src={search} alt="" />
             <img
